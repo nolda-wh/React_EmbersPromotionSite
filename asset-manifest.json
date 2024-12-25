@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b369667f.css",
+    "main.js": "/static/js/main.74adccf2.js",
+    "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
+    "static/media/image3.png": "/static/media/image3.7138723be64f95ffcc8c.png",
+    "static/media/image1.png": "/static/media/image1.a18856611ce8e8dc17e9.png",
+    "static/media/intro.mp4": "/static/media/intro.4539295abab3584794a1.mp4",
+    "static/media/image4.png": "/static/media/image4.523e2224bdbb2d34c412.png",
+    "static/media/single_01.png": "/static/media/single_01.13dc9d2f513412199940.png",
+    "static/media/image2.png": "/static/media/image2.491b992f7fc91c212828.png",
+    "static/media/image6.png": "/static/media/image6.33d33384bfb3ffa0df9f.png",
+    "static/media/image8.png": "/static/media/image8.6cc2881ead063748a726.png",
+    "static/media/secret.png": "/static/media/secret.f822733d07a19323e697.png",
+    "static/media/keyGuide.png": "/static/media/keyGuide.b9cf88d6ba4302bb41a5.png",
+    "static/media/image9.jpg": "/static/media/image9.dbe46f8472a13aac9440.jpg",
+    "static/media/image5.png": "/static/media/image5.ff5361c515f1111aebbd.png",
+    "static/media/intro_1.mp4": "/static/media/intro_1.dbf4e2ef3ddb3efff37f.mp4",
+    "static/media/intro_embers.mp4": "/static/media/intro_embers.dbf4e2ef3ddb3efff37f.mp4",
+    "static/media/single_02.png": "/static/media/single_02.0c8cda274d8e937d324e.png",
+    "static/media/poster.png": "/static/media/poster.a903316e3845287a0be3.png",
+    "static/media/embers_logo.png": "/static/media/embers_logo.05a906018de116522b79.png",
+    "static/media/multi_01.png": "/static/media/multi_01.7f1de7d1019043b0fa4f.png",
+    "static/media/grade2.png": "/static/media/grade2.72f5f624c306b0c02c12.png",
+    "static/media/unity.jpg": "/static/media/unity.cb0a2a263387ac0d9465.jpg",
+    "static/media/grade1.png": "/static/media/grade1.0cb00e7f9cb30f367038.png",
+    "static/media/logo.png": "/static/media/logo.e6e8770826d7ed97655c.png",
+    "index.html": "/index.html",
+    "main.b369667f.css.map": "/static/css/main.b369667f.css.map",
+    "main.74adccf2.js.map": "/static/js/main.74adccf2.js.map",
+    "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b369667f.css",
+    "static/js/main.74adccf2.js"
+  ]
+}
