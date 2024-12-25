@@ -1,0 +1,416 @@
+@import url('https://fonts.cdnfonts.com/css/nanumsquare-neo');
+
+:root {
+  --font-11 : "NanumSquare Neo", sans-serif;
+  --bs-body-font-family: var(--font-11);
+  --multiplier       : 0.5;
+  --space            : calc(3.2rem * var(--multiplier));
+  --vspace-0_75      : calc(0.75 * var(--space));
+  --bs-top-btn : #F8F9FA;
+  --bs-top-btn-path : #000;
+}
+
+::selection {
+  background-color: #FF00FF;
+}
+
+html {
+  background-color: #000;
+}
+
+body {
+  font-family: var(--bs-body-font-family) !important;
+}
+
+a {
+  text-decoration-line: none !important;
+}
+
+.logomenu {
+  cursor: pointer;
+}
+
+.offcanvas-backdrop {
+  background-color : rgba(255,255,255,1) !important;
+}
+
+
+.border-bottom-1 {
+  border-top: solid 1px rgba(255, 255, 255, 0.3) !important;
+}
+/*
+.offcanvas-body {
+  width: 100 !important;
+}*/
+
+.game-logo {
+  width: 170px;
+}
+
+.bg-orbit {
+  background-color: #fff;
+}
+
+.bg-transparent {
+  transition: all 0.3s;
+}
+
+.bg-black {
+  transition: all 0.3s;
+}
+
+.font-11 {
+  font-family: var(--font-11);
+}
+
+.box-click {
+  position: relative;
+  cursor: pointer;
+  padding:5px;
+}
+
+.box-click::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 255, 255, 0.2);
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.box-click:hover::before {
+  opacity: 1;
+}
+
+.box-click span {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-video-prj {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Viewport height */
+  overflow: hidden;
+  background-color: #000; /* 배경색을 검정색으로 설정 */
+  display: flex; /* 동영상을 가운데로 정렬하기 위해 사용 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+
+.center
+{
+  text-align: center;
+  justify-content : center;
+}
+
+.bg-video__content {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* 게임 소개 텍스트 스타일 */
+.game-intro {
+  position: relative;
+  z-index: 2;
+ /* 동영상 아래에 위치 */
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.game-intro h1, .game-intro p {
+  margin: 0;
+  padding: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* 배경 바뀌는 부분 스타일 */
+.background-section {
+
+  transition: background-image 0.5s ease-in-out;
+}
+
+.downloadBtn {
+  display: none;
+}
+
+/* 모바일X PC크기에서만 작동하는 영역*/
+@media (min-width: 992px) {
+  .downloadBtn {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(221, 110, 36);
+    color: #000;
+    transition: all 0.3s;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+  }
+
+  .downloadBtn:hover {
+    background-color: #e29f67;
+    transition: all 0.3s;
+  }
+
+  .px-4-only-pc {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+
+}
+
+/* 모바일전용 */
+@media (max-width: 991px) {
+  .starting-logo {
+    background-image: url('./images/logo_mobile.png') !important;
+    width: 50px !important;
+    
+  }
+
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28280, 280, 280, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler {
+  border: 0px !important;
+  box-shadow: none !important;
+}
+
+
+.starting-logo {
+  background-image: url('./images/logo.png');
+  width: 130px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+
+.starting-logo-menu {
+  width: 90px;
+}
+
+.navbar {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+}
+
+.bg-gray {
+  background-color: #323232;
+}
+
+.bg-blur {
+  background-color: rgba(0,0,0,0.1) !important;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-sig1 {
+  color: #00FFFF;
+}
+
+.text-sig2 {
+  color: #FF00FF;
+}
+
+.text-orange {
+  color: #EDA026;
+}
+
+.fs-0 {
+  font-size: calc(1.375rem + 3vw) !important;
+}
+
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
+.unitylogo {
+  width: 40px;
+}
+
+.card {
+  width: 80%;
+}
+
+.footer {
+  border-top: solid 1px rgba(255, 255, 255, 0.3);
+  height: 300px;
+}
+
+.grade img {
+  width: 80px;
+}
+
+.project-video {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+
+.card-image-main {
+  z-index: 0;
+  width: 100%;
+  /*filter: opacity(50%);
+  -webkit-filter: opacity(50%);  /*For Safari */
+  object-fit: cover;
+  transition-duration: 0.3s;
+}
+
+.patchnote {
+  position: relative;
+}
+
+.patchnote_banner {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-parent {
+  position: relative;
+}
+
+.box {
+  position: fixed;
+  top:50%;
+  width:100px;
+  height:130px;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  right: 0;
+  z-index: 1;
+}
+.box p {
+  transform:rotate(270deg)
+}
+
+.vertical {
+  position:relative;
+  right:27px;
+  width: 1px;
+  height: 100px;
+  background-color: transparent;
+  overflow: hidden;
+  }
+.vertical::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  animation: vertical 1.3s ease-out infinite;
+}
+
+@keyframes vertical {
+  0% {
+    margin-top: -82px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.card {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.card-header {
+  border : 1px solid hsl(0, 0%, 50%) !important;
+  background-color: #2b2b2b !important;
+}
+
+.card-body {
+  background-color: #0c0c0c !important;
+}
+
+.card-danger {
+  background-color: #a04c4c !important;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 30px #000 !important;
+}
+
+.text-shadow-1 {
+  text-shadow: 0px 0px 10px #000 !important;
+}
+
+
+.card-cover-blog {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  border: solid 1px #22C998;
+  color: #22C998;
+  transition: all 0.3s;
+}
+/* #00FFFF / #FF00FF */
+
+.w-25
+{
+  width: 25%;
+}
+
+.w-50
+{
+  width: 50%;
+}
+
+.w-100
+{
+  width: 100%;
+}
+
+.highlight
+{
+  color: #FF00FF;
+}
+
+.highlight2
+{
+  color: rgb(68, 202, 202);
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow-md {
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.shadow-lg {
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.8) !important;
+  -webkit-box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.8);
+}
+
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 1.0); }
