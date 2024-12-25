@@ -108,7 +108,7 @@ const Home = () => {
         style={{ opacity: introVisible ? 1 : 0, transition: 'opacity 1s ease' }}
       >
         <div className='fs-5 font-11 mb-5 pb-5'>
-          2024. 12. 25. - <br/>신규 MMORPG 프로젝트
+          2024. 12. 25. - <br/>신규 MMORPG 프로젝트.
         </div>
       </div>
 
