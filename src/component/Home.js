@@ -89,25 +89,21 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='bg-black box-parent'>
+    <div className='bg-white box-parent'>
       <Helmet><title>잉걸불 - STARTING</title></Helmet>
         <div class="box">
           <p>scroll down</p>
           <div class="vertical"></div>
         </div>
       <div className="bg-video-prj " style={{ transform: `scale(${videoScale})` }}>
-        <video className="bg-video__content bg-black" autoPlay muted loop poster={poster}>
+        <video className="bg-video__content bg-white" autoPlay muted loop poster={poster}>
           <source src={intro} type="video/mp4" />
         </video>
 
       </div>
 
-      <div
-        className="game-intro justify-content-center align-items-center px-5 vh-100"
-        ref={introRef}
-        style={{ opacity: introVisible ? 1 : 0, transition: 'opacity 1s ease' }}
-      >
-        <div className='fs-5 font-11 mb-5 pb-5'>
+      <div className="justify-content-center align-items-center px-5 vh-100">
+        <div className='fs-5 font-11 mb-5 pb-5 text-black'>
           2024. 12. 25. - <br/>신규 MMORPG 프로젝트.
         </div>
       </div>

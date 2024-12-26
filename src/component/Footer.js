@@ -6,7 +6,7 @@ import grade2 from '../images/grade2.png';
 
 function Footer() {
   return (
-    <div className='bg-black footer d-flex flex-column pt-5'>
+    <div className='bg-white footer d-flex flex-column pt-5'>
       <div className='d-flex justify-content-center'>
         {/* <div className='grade pe-1'>
           <img src={grade1} className=''/>
@@ -18,7 +18,7 @@ function Footer() {
       <div className=''>
         <ul class="navbar-nav d-flex flex-row justify-content-center font-11 pt-3">
           <li class="nav-item px-2 d-flex align-items-center">
-            <Link exact='true' to="/" class="nav-link active text-light box-click"><span className='px-2'>메인</span></Link>
+            <Link exact='true' to="/" class="nav-link active text-black box-click"><span className='px-2'>메인</span></Link>
           </li>
           {/* <li class="nav-item px-2 d-flex align-items-center">
             <Link exact='true' to="/guide" className='nav-link text-light box-click'><span className='px-2'>가이드</span></Link>
@@ -34,7 +34,7 @@ function Footer() {
           </li> */}
         </ul>
       </div>
-      <div className='font-11 d-flex justify-content-center text-white fs-7 pt-3'>&copy; Woohyun Cho(STARTING). All rights reserved.</div>
+      <div className='font-11 d-flex justify-content-center text-black fs-7 pt-3'>&copy; Woohyun Cho(STARTING). All rights reserved.</div>
 
     </div>
   );
