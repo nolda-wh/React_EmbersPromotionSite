@@ -51,6 +51,9 @@ function Nav() {
               <li className="nav-item px-3 d-flex align-items-center">
                 <NavLink exact='true' to="/" className="nav-link text-black box-click"><span>메인</span></NavLink>
               </li>
+              <li className="nav-item px-3 d-flex align-items-center">
+                <NavLink exact='true' to="/devnote" className="nav-link text-black box-click"><span>개발 기록</span></NavLink>
+              </li>
               {/* <li className="nav-item px-3 d-flex align-items-center">
                 <NavLink exact='true' to="/Guide" className='nav-link text-black box-click'><span>가이드</span></NavLink>
               </li>

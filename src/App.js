@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import GameIntroPage from './component/GameIntroPage';
 import Comment from './component/Comment';
 import Guide from './component/Guide';
+import Devnote from './component/Devnote';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/intro" element={<GameIntroPage/>}/>
       <Route path="/comment" element={<Comment/>}/>
       <Route path="/guide" element={<Guide/>}/>
+      <Route path="/devnote" element={<Devnote/>}/>
     </Routes>
   );
 }
