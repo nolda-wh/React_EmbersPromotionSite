@@ -92,7 +92,7 @@ function Blog_Parse() {
             <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4">
               {posts.map((post, index) => {
                 const formattedDate = format(new Date(post.pubDate), 'yyyy. MM. dd.');
-                const truncatedTitle = truncateText(post.title, 28);
+                const truncatedTitle = truncateText(post.title, 35);
                 const truncatedDescription = truncateText(post.description, 200);
 
                 return (
