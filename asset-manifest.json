@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.98b28436.css",
-    "main.js": "/static/js/main.c18feb62.js",
+    "main.css": "/static/css/main.9e1bbe16.css",
+    "main.js": "/static/js/main.4029fe9c.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/image3.png": "/static/media/image3.7138723be64f95ffcc8c.png",
     "static/media/devnote.png": "/static/media/devnote.908ccb28953d02aec678.png",
@@ -19,7 +19,7 @@
     "static/media/intro_1.mp4": "/static/media/intro_1.d8d057ef9e3613e81a7f.mp4",
     "static/media/intro_embers.mp4": "/static/media/intro_embers.dbf4e2ef3ddb3efff37f.mp4",
     "static/media/single_02.png": "/static/media/single_02.0c8cda274d8e937d324e.png",
-    "static/media/poster.png": "/static/media/poster.72141136873252ced428.png",
+    "static/media/poster.png": "/static/media/poster.bb7495bafa56bbb9e4be.png",
     "static/media/multi_01.png": "/static/media/multi_01.7f1de7d1019043b0fa4f.png",
     "static/media/embers_logo.png": "/static/media/embers_logo.2918263d841abca3c9dc.png",
     "static/media/grade2.png": "/static/media/grade2.72f5f624c306b0c02c12.png",
@@ -27,12 +27,12 @@
     "static/media/unity.jpg": "/static/media/unity.cb0a2a263387ac0d9465.jpg",
     "static/media/grade1.png": "/static/media/grade1.0cb00e7f9cb30f367038.png",
     "index.html": "/index.html",
-    "main.98b28436.css.map": "/static/css/main.98b28436.css.map",
-    "main.c18feb62.js.map": "/static/js/main.c18feb62.js.map",
+    "main.9e1bbe16.css.map": "/static/css/main.9e1bbe16.css.map",
+    "main.4029fe9c.js.map": "/static/js/main.4029fe9c.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98b28436.css",
-    "static/js/main.c18feb62.js"
+    "static/css/main.9e1bbe16.css",
+    "static/js/main.4029fe9c.js"
   ]
 }
