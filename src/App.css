@@ -276,15 +276,14 @@ a {
 }
 
 .card-image-main {
-  position: absolute;
+  z-index: 0;
   width: 100%;
-  min-height: 100%;
   /*filter: opacity(50%);
   -webkit-filter: opacity(50%);  /*For Safari */
   object-fit: cover;
   transition-duration: 0.3s;
-  overflow: hidden;
 }
+
 
 .patchnote {
   position: relative;
