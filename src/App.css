@@ -270,14 +270,20 @@ a {
   background-size: cover;
 }
 
+.card-relative {
+  height: 300px;
+  position: relative;
+}
 
 .card-image-main {
-  z-index: 0;
+  position: absolute;
   width: 100%;
+  min-height: 100%;
   /*filter: opacity(50%);
   -webkit-filter: opacity(50%);  /*For Safari */
   object-fit: cover;
   transition-duration: 0.3s;
+  overflow: hidden;
 }
 
 .patchnote {
@@ -409,14 +415,6 @@ a {
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
 .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 1.0); }
 
-.card-image-main {
-  width: 100%;
-  height: 280px;
-  /*filter: opacity(50%);
-  -webkit-filter: opacity(50%);  /*For Safari */
-  object-fit: cover;
-  transition-duration: 0.3s;
-}
 
 .note-box {
   border-color: #000 !important;
@@ -516,4 +514,8 @@ a {
   75% {
     color: #34a853;
   }
+}
+
+.no-enter {
+  white-space: nowrap;
 }
