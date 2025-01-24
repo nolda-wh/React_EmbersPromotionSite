@@ -35,7 +35,7 @@ function Nav() {
           <div className="navbar-nav py-3 px-4-only-pc ">
             <div className="nav-item dropdown px-4-only-pc">
               <a className=" flex-row d-flex logomenu box-click " data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-                <div className="starting-logo" alt="STARTING" ></div>
+                <div className="starting-logo" alt="NOLDA" ></div>
                 <div className='text-black ps-3'><FontAwesomeIcon icon={faChevronRight}/></div>
               </a>
             </div>
@@ -81,13 +81,13 @@ function Nav() {
             <a type="button" className="box-click" data-bs-dismiss="offcanvas" aria-label="Close">
               <FontAwesomeIcon icon={faXmark} className='fa-2xl text-black'/> 
             </a>
-          <a href="https://starting.run" target='_blank' className='ps-4'><div className='box-click px-2'><span className='font-11 text-black'><img className="starting-logo-menu pe-2" src={startinglogo}/>바로가기 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></div></a>
+          <a href="https://nolda.site" target='_blank' className='ps-4'><div className='box-click px-2'><span className='font-11 text-black'><img className="starting-logo-menu pe-2" src={startinglogo}/>바로가기 <FontAwesomeIcon icon={faSquareArrowUpRight}/></span></div></a>
         </div>
         <div className="offcanvas-body text-black font-11">
           <div className='fw-bolder mb-2'>GAMES</div>
           
           <div className='row row-cols-1 row-cols-md-3'>
-            <a className='col box-click' href="https://embers.starting.run">
+            <a className='col box-click' href="https://embers.nolda.site">
               <div className='row row-cols-2'>
                 <div class="col-6 rounded-4 border-0 ">
                   <video className="card-image-main rounded-4" autoPlay muted loop>
@@ -100,7 +100,7 @@ function Nav() {
                 </div>
               </div>
             </a>
-            <a className='col box-click' href="https://orbit.starting.run">
+            <a className='col box-click' href="https://orbit.nolda.site">
               <div className='row row-cols-2'>
                 <div class="col-6 rounded-4 border-0 ">
                   <video className="card-image-main rounded-4" autoPlay muted loop>

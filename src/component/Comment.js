@@ -10,7 +10,7 @@ function Comment() {
 
   return (
     <div className='bg-dark pb-5'>
-      <Helmet><title>코멘트 | 오르빗</title></Helmet>
+      <Helmet><title>코멘트 | 잉걸불</title></Helmet>
       <div className='patchnote'>
         <div className='justify-content-center position-absolute top-50 start-50 translate-middle'>
           <div className='font-11 fs-0 text-white text-shadow text-center'>코멘트</div>

@@ -1,7 +1,7 @@
 /*
     조우현 - Woohyun Cho
     tlrmsjtm77@gmail.com
-    https://starting.run
+    https://nolda.site
 */
 
 import { useEffect } from "react";

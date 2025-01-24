@@ -16,7 +16,7 @@ function Guide() {
 
   return (
     <div className='bg-dark pb-5'>
-      <Helmet><title>가이드 | 오르빗</title></Helmet>
+      <Helmet><title>가이드 | 잉걸불</title></Helmet>
       <div className='patchnote'>
         <div className='justify-content-center position-absolute top-50 start-50 translate-middle'>
           <div className='font-11 fs-0 text-white text-shadow text-center'>가이드</div>

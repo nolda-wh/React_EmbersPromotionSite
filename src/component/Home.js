@@ -90,7 +90,7 @@ const Home = () => {
 
   return (
     <div className='bg-white box-parent'>
-      <Helmet><title>잉걸불 - STARTING</title></Helmet>
+      <Helmet><title>잉걸불 - NOLDA</title></Helmet>
         <div class="box">
           <p>scroll down</p>
           <div class="vertical"></div>

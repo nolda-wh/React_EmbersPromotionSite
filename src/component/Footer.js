@@ -34,7 +34,7 @@ function Footer() {
           </li> */}
         </ul>
       </div>
-      <div className='font-11 d-flex justify-content-center text-black fs-7 pt-3'>&copy; Woohyun Cho(STARTING). All rights reserved.</div>
+      <div className='font-11 d-flex justify-content-center text-black fs-7 pt-3'>&copy; Woohyun Cho(NOLDA). All rights reserved.</div>
 
     </div>
   );

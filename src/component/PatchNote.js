@@ -7,7 +7,7 @@ function PatchNote() {
 
   useEffect(() => {
     // JSON 파일에서 데이터를 가져옵니다.
-    fetch('https://orbit.starting.run/data.json')
+    fetch('https://orbit.nolda.site/data.json')
       .then(response => response.json())
       .then(data => {
         const notes = data.reduce((acc, note) => {
@@ -27,7 +27,7 @@ function PatchNote() {
 
   return (
     <div className='bg-dark pb-5'>
-      <Helmet><title>패치노트 | 오르빗</title></Helmet>
+      <Helmet><title>패치노트 | 잉걸불</title></Helmet>
       <div className='patchnote'>
         <div className='justify-content-center position-absolute top-50 start-50 translate-middle'>
           <div className='font-11 fs-0 text-white text-shadow'>패치노트</div>

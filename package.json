@@ -34,7 +34,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://embers.starting.run",
+  "homepage": "https://embers.nolda.site",
   "eslintConfig": {
     "extends": [
       "react-app",
