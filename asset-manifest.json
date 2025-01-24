@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb8287e3.css",
-    "main.js": "/static/js/main.4029fe9c.js",
+    "main.css": "/static/css/main.7150db0d.css",
+    "main.js": "/static/js/main.a27a13a8.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/image3.png": "/static/media/image3.7138723be64f95ffcc8c.png",
     "static/media/devnote.png": "/static/media/devnote.908ccb28953d02aec678.png",
@@ -23,16 +23,15 @@
     "static/media/multi_01.png": "/static/media/multi_01.7f1de7d1019043b0fa4f.png",
     "static/media/embers_logo.png": "/static/media/embers_logo.2918263d841abca3c9dc.png",
     "static/media/grade2.png": "/static/media/grade2.72f5f624c306b0c02c12.png",
-    "static/media/logo.png": "/static/media/logo.adf2172e1b166bc22334.png",
     "static/media/unity.jpg": "/static/media/unity.cb0a2a263387ac0d9465.jpg",
     "static/media/grade1.png": "/static/media/grade1.0cb00e7f9cb30f367038.png",
     "index.html": "/index.html",
-    "main.bb8287e3.css.map": "/static/css/main.bb8287e3.css.map",
-    "main.4029fe9c.js.map": "/static/js/main.4029fe9c.js.map",
+    "main.7150db0d.css.map": "/static/css/main.7150db0d.css.map",
+    "main.a27a13a8.js.map": "/static/js/main.a27a13a8.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb8287e3.css",
-    "static/js/main.4029fe9c.js"
+    "static/css/main.7150db0d.css",
+    "static/js/main.a27a13a8.js"
   ]
 }
